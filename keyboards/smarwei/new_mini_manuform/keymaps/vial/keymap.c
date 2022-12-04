@@ -71,4 +71,5 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                          _______,  _______,       _______, TO(0),
                                                                    _______,       _______
+    )
 };
