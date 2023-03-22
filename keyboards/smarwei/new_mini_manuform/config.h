@@ -1,0 +1,33 @@
+// Copyright 2022 Arne Weiss (@smarwei)
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+/*
+ * Feature disable options
+ *  These options are also useful to firmware size reduction.
+ */
+
+/* disable debug print */
+//#define NO_DEBUG
+
+/* disable print */
+//#define NO_PRINT
+
+/* disable action features */
+//#define NO_ACTION_LAYER
+//#define NO_ACTION_TAPPING
+//#define NO_ACTION_ONESHOT
+
+#define TAPPING_TOGGLE 2
+
+// Split stuff
+#define SPLIT_USB_DETECT
+#define SOFT_SERIAL_PIN D2
+#define MASTER_RIGHT
+//#define MASTER_LEFT
+
+// #define MATRIX_ROW_PINS { D7, E6, B4, B5 }
+// #define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS_RIGHT { B1, B3, B2, B6 }
+#define MATRIX_COL_PINS_RIGHT { B5, B4, E6, D7, C6, D4 }
